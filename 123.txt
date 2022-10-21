@@ -1,5 +1,0 @@
-inclde<stdi.h>
-int main()
-{
-	printf("this is text");
-}
