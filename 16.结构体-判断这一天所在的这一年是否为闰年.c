@@ -6,7 +6,7 @@
 		int year;
 	};	
 
-bool isleap(struct date t){ // 同上 
+bool isleap(struct date t){ // 同下 
 	bool leap = false;
 	if( (t.year%4==0&&t.year%100!=0) ||t.year%400==0){
 		 leap = true;
